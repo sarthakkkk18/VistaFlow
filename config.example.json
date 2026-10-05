@@ -1,0 +1,7 @@
+{
+  "camera_index": 0, "width": 640, "height": 480, "fps": 30,
+  "hand_model": "data/hand_landmarker.task",
+  "gesture": {"smoothing_alpha": 0.45, "hold_frames": 3, "hold_ms": 120,
+    "release_frames": 3, "release_ms": 80, "cooldown_ms": 350,
+    "minimum_confidence": 0.7, "pinch_threshold": 0.3, "pinch_release_threshold": 0.43}
+}

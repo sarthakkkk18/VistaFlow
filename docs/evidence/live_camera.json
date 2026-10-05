@@ -1,0 +1,30 @@
+{
+  "environment": "Windows-11-10.0.26200-SP0",
+  "python": "3.12.8",
+  "scope": "Physical camera + MediaPipe + Canny, requested 640x480/30 FPS, at most 60 frames; no gesture accuracy or UI timing",
+  "frames": 60,
+  "worker_stopped": true,
+  "tracking_active": true,
+  "frames_saved": false,
+  "metrics": {
+    "capture_fps": {
+      "count": 50,
+      "median": 22.699414467530477,
+      "p95": 24.983976859045512
+    },
+    "processed_fps": {
+      "count": 50,
+      "median": 21.45640123265779,
+      "p95": 21.668816113271397
+    },
+    "processing_ms": {
+      "count": 50,
+      "median": 42.0281999998906,
+      "p95": 57.177800000044954
+    }
+  },
+  "messages": [
+    "CAMERA ACTIVE",
+    "CAMERA INACTIVE"
+  ]
+}
